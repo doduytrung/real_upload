@@ -1,0 +1,19 @@
+{
+  "name": "real_upload",
+  "version": "1.0.0",
+  "description": "File upload using NodeJs now for real <www.componentix.com/blog/9/file-uploads-using-nodejs-now-for-real>",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "upload",
+    "file"
+  ],
+  "author": "Do Duy Trung",
+  "license": "FREE"
+}

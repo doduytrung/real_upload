@@ -1,0 +1,422 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'posix' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json real_upload@1.0.0 No README data
+6 warn package.json multipart@0.1.5 No repository field.
+7 warn package.json multipart@0.1.5 No README data
+8 silly cache add args [ 'posix', null ]
+9 verbose cache add spec posix
+10 silly cache add parsed spec { raw: 'posix',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'posix',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 verbose addNamed posix@*
+12 silly addNamed semver.valid null
+13 silly addNamed semver.validRange *
+14 silly addNameRange { name: 'posix', range: '*', hasData: false }
+15 silly mapToRegistry name posix
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/posix
+19 verbose addNameRange registry:https://registry.npmjs.org/posix not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/posix
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 8:17:56 PM
+23 verbose request id 14354e724c495018
+24 http request GET https://registry.npmjs.org/posix
+25 http 200 https://registry.npmjs.org/posix
+26 silly get cb [ 200,
+26 silly get   { date: 'Wed, 18 Mar 2015 04:01:44 GMT',
+26 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly get     etag: '"XE2W7M3FAZJ53IC29V6YU5Z7"',
+26 silly get     'content-type': 'application/json',
+26 silly get     'cache-control': 'max-age=60',
+26 silly get     'content-length': '32178',
+26 silly get     'accept-ranges': 'bytes',
+26 silly get     via: '1.1 varnish',
+26 silly get     age: '0',
+26 silly get     'x-served-by': 'cache-hkg6821-HKG',
+26 silly get     'x-cache': 'MISS',
+26 silly get     'x-cache-hits': '0',
+26 silly get     'x-timer': 'S1426651303.234214,VS0,VE884',
+26 silly get     vary: 'Accept',
+26 silly get     'keep-alive': 'timeout=10, max=50',
+26 silly get     connection: 'Keep-Alive' } ]
+27 verbose get saving posix to C:\Users\trung\AppData\Roaming\npm-cache\registry.npmjs.org\posix\.cache.json
+28 silly addNameRange number 2 { name: 'posix', range: '*', hasData: true }
+29 silly addNameRange versions [ 'posix',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.6',
+29 silly addNameRange     '0.0.7',
+29 silly addNameRange     '0.0.8',
+29 silly addNameRange     '0.0.10',
+29 silly addNameRange     '0.0.11',
+29 silly addNameRange     '0.0.12',
+29 silly addNameRange     '0.0.13',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.0.4',
+29 silly addNameRange     '2.0.0' ] ]
+30 verbose addNamed posix@2.0.0
+31 silly addNamed semver.valid 2.0.0
+32 silly addNamed semver.validRange 2.0.0
+33 silly mapToRegistry name posix
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/posix
+37 verbose addRemoteTarball https://registry.npmjs.org/posix/-/posix-2.0.0.tgz not in flight; adding
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/posix/-/posix-2.0.0.tgz',
+38 verbose addRemoteTarball   '90fd0ec73968d805c890b61ae6cc95ae5803a87d' ]
+39 info retry fetch attempt 1 at 8:17:57 PM
+40 info attempt registry request try #1 at 8:17:57 PM
+41 http fetch GET https://registry.npmjs.org/posix/-/posix-2.0.0.tgz
+42 http fetch 200 https://registry.npmjs.org/posix/-/posix-2.0.0.tgz
+43 silly fetchAndShaCheck shasum 90fd0ec73968d805c890b61ae6cc95ae5803a87d
+44 verbose addTmpTarball C:\Users\trung\AppData\Local\Temp\npm-28920-510744ad\registry.npmjs.org\posix\-\posix-2.0.0.tgz not in flight; adding
+45 verbose addTmpTarball already have metadata; skipping unpack for posix@2.0.0
+46 silly cache afterAdd posix@2.0.0
+47 verbose afterAdd C:\Users\trung\AppData\Roaming\npm-cache\posix\2.0.0\package\package.json not in flight; writing
+48 verbose afterAdd C:\Users\trung\AppData\Roaming\npm-cache\posix\2.0.0\package\package.json written
+49 silly install resolved [ { name: 'posix',
+49 silly install resolved     version: '2.0.0',
+49 silly install resolved     description: 'The missing POSIX system calls',
+49 silly install resolved     keywords:
+49 silly install resolved      [ 'posix',
+49 silly install resolved        'rlimit',
+49 silly install resolved        'getrlimit',
+49 silly install resolved        'setrlimit',
+49 silly install resolved        'ulimit',
+49 silly install resolved        'setuid',
+49 silly install resolved        'setgid',
+49 silly install resolved        'seteuid',
+49 silly install resolved        'setegid',
+49 silly install resolved        'chroot',
+49 silly install resolved        'setreuid',
+49 silly install resolved        'setregid',
+49 silly install resolved        'getpgrp',
+49 silly install resolved        'setsid',
+49 silly install resolved        'setpgid',
+49 silly install resolved        'getpwnam',
+49 silly install resolved        'getgrnam',
+49 silly install resolved        'uid',
+49 silly install resolved        'gid',
+49 silly install resolved        'initgroups',
+49 silly install resolved        'syslog',
+49 silly install resolved        'setlogmask',
+49 silly install resolved        'gethostname',
+49 silly install resolved        'sethostname' ],
+49 silly install resolved     homepage: 'http://github.com/melor/node-posix',
+49 silly install resolved     repository: { type: 'git', url: 'git://github.com/melor/node-posix.git' },
+49 silly install resolved     author: { name: 'Mika Eloranta', email: 'mel@ohmu.fi' },
+49 silly install resolved     main: './lib/posix',
+49 silly install resolved     dependencies: { nan: '~1.6.2' },
+49 silly install resolved     scripts: { test: 'make test', install: 'node-gyp rebuild' },
+49 silly install resolved     engines: { node: '>= 0.8.0' },
+49 silly install resolved     gypfile: true,
+49 silly install resolved     gitHead: '708832c8d8d2fe0a2c61df89da395a1efdef8cba',
+49 silly install resolved     bugs: { url: 'https://github.com/melor/node-posix/issues' },
+49 silly install resolved     _id: 'posix@2.0.0',
+49 silly install resolved     _shasum: '90fd0ec73968d805c890b61ae6cc95ae5803a87d',
+49 silly install resolved     _from: 'posix@*',
+49 silly install resolved     _npmVersion: '2.5.1',
+49 silly install resolved     _nodeVersion: '0.12.0',
+49 silly install resolved     _npmUser: { name: 'mel', email: 'mel@ohmu.fi' },
+49 silly install resolved     maintainers: [ [Object] ],
+49 silly install resolved     dist:
+49 silly install resolved      { shasum: '90fd0ec73968d805c890b61ae6cc95ae5803a87d',
+49 silly install resolved        tarball: 'http://registry.npmjs.org/posix/-/posix-2.0.0.tgz' },
+49 silly install resolved     directories: {},
+49 silly install resolved     _resolved: 'https://registry.npmjs.org/posix/-/posix-2.0.0.tgz' } ]
+50 info install posix@2.0.0 into C:\Temp\TEST\real_upload
+51 info installOne posix@2.0.0
+52 verbose installOne of posix to C:\Temp\TEST\real_upload not in flight; installing
+53 verbose lock using C:\Users\trung\AppData\Roaming\npm-cache\_locks\posix-5234b92cbc5c1f78.lock for C:\Temp\TEST\real_upload\node_modules\posix
+54 silly install write writing posix 2.0.0 to C:\Temp\TEST\real_upload\node_modules\posix
+55 silly cache addNamed cb posix@2.0.0
+56 verbose unbuild node_modules\posix
+57 verbose gentlyRm vacuuming C:\Temp\TEST\real_upload\node_modules\posix
+58 verbose tar unpack C:\Users\trung\AppData\Roaming\npm-cache\posix\2.0.0\package.tgz
+59 verbose tar unpacking to C:\Temp\TEST\real_upload\node_modules\posix
+60 verbose gentlyRm vacuuming C:\Temp\TEST\real_upload\node_modules\posix
+61 silly gunzTarPerm modes [ '777', '666' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+66 silly gunzTarPerm extractEntry LICENSE
+67 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+68 silly gunzTarPerm extractEntry binding.gyp
+69 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+70 silly gunzTarPerm extractEntry lib/posix/index.js
+71 silly gunzTarPerm modified mode [ 'lib/posix/index.js', 420, 438 ]
+72 silly gunzTarPerm extractEntry src/posix.cc
+73 silly gunzTarPerm modified mode [ 'src/posix.cc', 420, 438 ]
+74 silly gunzTarPerm extractEntry test/unit/test-chroot.js
+75 silly gunzTarPerm modified mode [ 'test/unit/test-chroot.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry test/unit/test-gethostname.js
+77 silly gunzTarPerm modified mode [ 'test/unit/test-gethostname.js', 420, 438 ]
+78 silly gunzTarPerm extractEntry test/unit/test-getppid.js
+79 silly gunzTarPerm modified mode [ 'test/unit/test-getppid.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry test/unit/test-getpwnam.js
+81 silly gunzTarPerm modified mode [ 'test/unit/test-getpwnam.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry test/unit/test-getrlimit.js
+83 silly gunzTarPerm modified mode [ 'test/unit/test-getrlimit.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry test/unit/test-getgrnam.js
+85 silly gunzTarPerm modified mode [ 'test/unit/test-getgrnam.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry test/unit/test-setegid.js
+87 silly gunzTarPerm modified mode [ 'test/unit/test-setegid.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry test/unit/test-seteuid.js
+89 silly gunzTarPerm modified mode [ 'test/unit/test-seteuid.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry test/unit/test-setregid.js
+91 silly gunzTarPerm modified mode [ 'test/unit/test-setregid.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry test/unit/test-setreuid.js
+93 silly gunzTarPerm modified mode [ 'test/unit/test-setreuid.js', 420, 438 ]
+94 silly gunzTarPerm extractEntry test/unit/test-setrlimit.js
+95 silly gunzTarPerm modified mode [ 'test/unit/test-setrlimit.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry test/unit/test-geteuid.js
+97 silly gunzTarPerm modified mode [ 'test/unit/test-geteuid.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry test/unit/test-setsid.js
+99 silly gunzTarPerm modified mode [ 'test/unit/test-setsid.js', 420, 438 ]
+100 silly gunzTarPerm extractEntry test/unit/test-getegid.js
+101 silly gunzTarPerm modified mode [ 'test/unit/test-getegid.js', 420, 438 ]
+102 silly gunzTarPerm extractEntry test/unit/test-syslog.js
+103 silly gunzTarPerm modified mode [ 'test/unit/test-syslog.js', 420, 438 ]
+104 silly gunzTarPerm extractEntry test/unit/test-initgroups.js
+105 silly gunzTarPerm modified mode [ 'test/unit/test-initgroups.js', 420, 438 ]
+106 silly gunzTarPerm extractEntry wscript
+107 silly gunzTarPerm modified mode [ 'wscript', 420, 438 ]
+108 info preinstall posix@2.0.0
+109 silly prepareForInstallMany adding nan@~1.6.2 from posix dependencies
+110 silly cache add args [ 'nan@~1.6.2', null ]
+111 verbose cache add spec nan@~1.6.2
+112 silly cache add parsed spec { raw: 'nan@~1.6.2',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'nan',
+112 silly cache add   rawSpec: '~1.6.2',
+112 silly cache add   spec: '>=1.6.2 <1.7.0',
+112 silly cache add   type: 'range' }
+113 verbose addNamed nan@>=1.6.2 <1.7.0
+114 silly addNamed semver.valid null
+115 silly addNamed semver.validRange >=1.6.2 <1.7.0
+116 silly addNameRange { name: 'nan', range: '>=1.6.2 <1.7.0', hasData: false }
+117 silly mapToRegistry name nan
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/nan
+121 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+122 verbose request uri https://registry.npmjs.org/nan
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 8:17:58 PM
+125 verbose etag "12EHA1PNRCCAOAQY0AIBQ9ET9"
+126 http request GET https://registry.npmjs.org/nan
+127 http 200 https://registry.npmjs.org/nan
+128 silly get cb [ 200,
+128 silly get   { date: 'Wed, 18 Mar 2015 04:01:45 GMT',
+128 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+128 silly get     etag: '"53INR1O88FGBCSW2EGGM70X6N"',
+128 silly get     'content-type': 'application/json',
+128 silly get     'cache-control': 'max-age=60',
+128 silly get     'content-length': '96140',
+128 silly get     'accept-ranges': 'bytes',
+128 silly get     via: '1.1 varnish',
+128 silly get     age: '0',
+128 silly get     'x-served-by': 'cache-hkg6826-HKG',
+128 silly get     'x-cache': 'HIT',
+128 silly get     'x-cache-hits': '1',
+128 silly get     'x-timer': 'S1426651305.428805,VS0,VE175',
+128 silly get     vary: 'Accept',
+128 silly get     'keep-alive': 'timeout=10, max=50',
+128 silly get     connection: 'Keep-Alive' } ]
+129 verbose get saving nan to C:\Users\trung\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+130 silly addNameRange number 2 { name: 'nan', range: '>=1.6.2 <1.7.0', hasData: true }
+131 silly addNameRange versions [ 'nan',
+131 silly addNameRange   [ '0.3.0-wip',
+131 silly addNameRange     '0.3.0-wip2',
+131 silly addNameRange     '0.3.0',
+131 silly addNameRange     '0.3.1',
+131 silly addNameRange     '0.3.2',
+131 silly addNameRange     '0.4.0',
+131 silly addNameRange     '0.4.1',
+131 silly addNameRange     '0.4.2',
+131 silly addNameRange     '0.4.3',
+131 silly addNameRange     '0.4.4',
+131 silly addNameRange     '0.5.0',
+131 silly addNameRange     '0.5.1',
+131 silly addNameRange     '0.5.2',
+131 silly addNameRange     '0.6.0',
+131 silly addNameRange     '0.7.0',
+131 silly addNameRange     '0.7.1',
+131 silly addNameRange     '0.8.0',
+131 silly addNameRange     '1.0.0',
+131 silly addNameRange     '1.1.0',
+131 silly addNameRange     '1.1.1',
+131 silly addNameRange     '1.1.2',
+131 silly addNameRange     '1.2.0',
+131 silly addNameRange     '1.3.0',
+131 silly addNameRange     '1.4.0',
+131 silly addNameRange     '1.4.1',
+131 silly addNameRange     '1.5.0',
+131 silly addNameRange     '1.4.2',
+131 silly addNameRange     '1.4.3',
+131 silly addNameRange     '1.5.1',
+131 silly addNameRange     '1.5.2',
+131 silly addNameRange     '1.6.0',
+131 silly addNameRange     '1.5.3',
+131 silly addNameRange     '1.6.1',
+131 silly addNameRange     '1.6.2',
+131 silly addNameRange     '1.7.0' ] ]
+132 verbose addNamed nan@1.6.2
+133 silly addNamed semver.valid 1.6.2
+134 silly addNamed semver.validRange 1.6.2
+135 silly cache afterAdd nan@1.6.2
+136 verbose afterAdd C:\Users\trung\AppData\Roaming\npm-cache\nan\1.6.2\package\package.json not in flight; writing
+137 verbose afterAdd C:\Users\trung\AppData\Roaming\npm-cache\nan\1.6.2\package\package.json written
+138 silly install resolved [ { name: 'nan',
+138 silly install resolved     version: '1.6.2',
+138 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+138 silly install resolved     main: 'include_dirs.js',
+138 silly install resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+138 silly install resolved     scripts:
+138 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+138 silly install resolved        'rebuild-tests': 'pangyp rebuild --directory test' },
+138 silly install resolved     contributors:
+138 silly install resolved      [ [Object],
+138 silly install resolved        [Object],
+138 silly install resolved        [Object],
+138 silly install resolved        [Object],
+138 silly install resolved        [Object],
+138 silly install resolved        [Object],
+138 silly install resolved        [Object] ],
+138 silly install resolved     devDependencies:
+138 silly install resolved      { bindings: '~1.2.1',
+138 silly install resolved        'node-gyp': '~1.0.2',
+138 silly install resolved        pangyp: '~2.0.1',
+138 silly install resolved        tap: '~0.5.0',
+138 silly install resolved        xtend: '~4.0.0' },
+138 silly install resolved     license: 'MIT',
+138 silly install resolved     gitHead: 'ab0e5eed8d4aa36111bf8f44cf75644ece327e98',
+138 silly install resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+138 silly install resolved     homepage: 'https://github.com/rvagg/nan',
+138 silly install resolved     _id: 'nan@1.6.2',
+138 silly install resolved     _shasum: '2657d1c43b00f1e847e083832285b7d8f5ba8ec8',
+138 silly install resolved     _from: 'nan@>=1.6.2 <1.7.0',
+138 silly install resolved     _npmVersion: '2.0.0',
+138 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+138 silly install resolved     maintainers: [ [Object], [Object] ],
+138 silly install resolved     dist:
+138 silly install resolved      { shasum: '2657d1c43b00f1e847e083832285b7d8f5ba8ec8',
+138 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.6.2.tgz' },
+138 silly install resolved     directories: {},
+138 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.6.2.tgz',
+138 silly install resolved     readme: 'ERROR: No README data found!' } ]
+139 info install nan@1.6.2 into C:\Temp\TEST\real_upload\node_modules\posix
+140 info installOne nan@1.6.2
+141 verbose installOne of nan to C:\Temp\TEST\real_upload\node_modules\posix not in flight; installing
+142 verbose lock using C:\Users\trung\AppData\Roaming\npm-cache\_locks\nan-9b9ad570d8df2ba6.lock for C:\Temp\TEST\real_upload\node_modules\posix\node_modules\nan
+143 silly install write writing nan 1.6.2 to C:\Temp\TEST\real_upload\node_modules\posix\node_modules\nan
+144 silly cache addNamed cb nan@1.6.2
+145 verbose unbuild node_modules\posix\node_modules\nan
+146 verbose gentlyRm vacuuming C:\Temp\TEST\real_upload\node_modules\posix\node_modules\nan
+147 verbose tar unpack C:\Users\trung\AppData\Roaming\npm-cache\nan\1.6.2\package.tgz
+148 verbose tar unpacking to C:\Temp\TEST\real_upload\node_modules\posix\node_modules\nan
+149 verbose gentlyRm vacuuming C:\Temp\TEST\real_upload\node_modules\posix\node_modules\nan
+150 silly gunzTarPerm modes [ '777', '666' ]
+151 silly gunzTarPerm extractEntry package.json
+152 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+153 silly gunzTarPerm extractEntry include_dirs.js
+154 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+155 silly gunzTarPerm extractEntry LICENSE.md
+156 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+157 silly gunzTarPerm extractEntry .dntrc
+158 silly gunzTarPerm modified mode [ '.dntrc', 436, 438 ]
+159 silly gunzTarPerm extractEntry appveyor.yml
+160 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 438 ]
+161 silly gunzTarPerm extractEntry nan.h
+162 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+163 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+164 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+165 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+166 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+167 silly gunzTarPerm extractEntry nan_new.h
+168 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+169 silly gunzTarPerm extractEntry nan_string_bytes.h
+170 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+171 silly gunzTarPerm extractEntry CHANGELOG.md
+172 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+173 info preinstall nan@1.6.2
+174 silly install resolved []
+175 verbose about to build C:\Temp\TEST\real_upload\node_modules\posix\node_modules\nan
+176 info build C:\Temp\TEST\real_upload\node_modules\posix\node_modules\nan
+177 verbose linkStuff [ false,
+177 verbose linkStuff   false,
+177 verbose linkStuff   false,
+177 verbose linkStuff   'C:\\Temp\\TEST\\real_upload\\node_modules\\posix\\node_modules' ]
+178 info linkStuff nan@1.6.2
+179 verbose linkBins nan@1.6.2
+180 verbose linkMans nan@1.6.2
+181 verbose rebuildBundles nan@1.6.2
+182 info install nan@1.6.2
+183 info postinstall nan@1.6.2
+184 verbose unlock done using C:\Users\trung\AppData\Roaming\npm-cache\_locks\nan-9b9ad570d8df2ba6.lock for C:\Temp\TEST\real_upload\node_modules\posix\node_modules\nan
+185 verbose about to build C:\Temp\TEST\real_upload\node_modules\posix
+186 info build C:\Temp\TEST\real_upload\node_modules\posix
+187 verbose linkStuff [ false,
+187 verbose linkStuff   false,
+187 verbose linkStuff   false,
+187 verbose linkStuff   'C:\\Temp\\TEST\\real_upload\\node_modules' ]
+188 info linkStuff posix@2.0.0
+189 verbose linkBins posix@2.0.0
+190 verbose linkMans posix@2.0.0
+191 verbose rebuildBundles posix@2.0.0
+192 verbose rebuildBundles [ 'nan' ]
+193 info install posix@2.0.0
+194 verbose unsafe-perm in lifecycle true
+195 info posix@2.0.0 Failed to exec install script
+196 verbose unlock done using C:\Users\trung\AppData\Roaming\npm-cache\_locks\posix-5234b92cbc5c1f78.lock for C:\Temp\TEST\real_upload\node_modules\posix
+197 verbose stack Error: posix@2.0.0 install: `node-gyp rebuild`
+197 verbose stack Exit status 1
+197 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+197 verbose stack     at EventEmitter.emit (events.js:110:17)
+197 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+197 verbose stack     at ChildProcess.emit (events.js:110:17)
+197 verbose stack     at maybeClose (child_process.js:1008:16)
+197 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1080:5)
+198 verbose pkgid posix@2.0.0
+199 verbose cwd C:\Temp\TEST\real_upload
+200 error Windows_NT 6.3.9600
+201 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "posix"
+202 error node v0.12.0
+203 error npm  v2.5.1
+204 error code ELIFECYCLE
+205 error posix@2.0.0 install: `node-gyp rebuild`
+205 error Exit status 1
+206 error Failed at the posix@2.0.0 install script 'node-gyp rebuild'.
+206 error This is most likely a problem with the posix package,
+206 error not with npm itself.
+206 error Tell the author that this fails on your system:
+206 error     node-gyp rebuild
+206 error You can get their info via:
+206 error     npm owner ls posix
+206 error There is likely additional logging output above.
+207 verbose exit [ 1, true ]
+208 verbose unbuild node_modules\posix
+209 info preuninstall posix@2.0.0
+210 info uninstall posix@2.0.0
+211 verbose unbuild rmStuff posix@2.0.0 from C:\Temp\TEST\real_upload\node_modules
+212 info postuninstall posix@2.0.0
+213 verbose gentlyRm vacuuming C:\Temp\TEST\real_upload\node_modules\posix
+214 silly gentlyRm purging C:\Temp\TEST\real_upload\node_modules\posix
+215 silly gentlyRm quitting because other entries in C:\Temp\TEST\real_upload\node_modules
